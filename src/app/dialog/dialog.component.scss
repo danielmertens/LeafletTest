@@ -1,0 +1,19 @@
+#center-screen {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  z-index: 1000;
+}
+
+#dialog {
+  position: relative;
+  width: 600px;
+  margin-left: -300px;
+  height: 400px;
+  margin-top: -200px;
+
+  background-color: white;
+  border-radius: 2rem;
+
+  padding: 25px;
+}
